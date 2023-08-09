@@ -1,0 +1,116 @@
+body {
+
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    height: 320px;
+
+}
+
+nav {
+    border-bottom: 1rem ridge #4580c2;
+    border-radius: .5rem;
+    margin-bottom: .5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+
+nav a:link {
+    color: #a50021;
+}
+
+nav a:hover {
+    text-decoration: none;
+    border-bottom: 0.2rem solid #4580c2;
+}
+
+main {
+    margin-bottom: 1rem;
+    border-bottom: 1rem ridge #4580c2;
+    border-radius: .5rem;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    border-radius: .5rem;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    height: 60px;
+}
+
+footer p {
+    color: #a50021;
+}
+
+.banner {
+    background-image: url("../banner-image.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner h1 {
+    color: white;
+    margin-top: .5rem;
+    margin-bottom: .2rem;
+}
+
+.banner p {
+    color: white;
+}
+
+.main-articles article {
+    margin-left: .4rem;
+    margin-left: .4rem;
+}
+
+.main-articles h2 {
+    color: #a50021;
+    border-bottom: .4rem ridge #4580c2;
+    border-radius: .2rem;
+}
